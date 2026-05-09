@@ -1,0 +1,34 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Local DB / logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Raw monitoring data
+*.mseed
+*.seed
+*.miniseed
+static/miniSeed/
+baikal-control/
+archive/
+uploads/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
